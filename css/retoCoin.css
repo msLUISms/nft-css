@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+.ficha {
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 20px; */
+    height: 600px;
+    width: 350px;
+    border-radius: 8px; 
+    gap: 10px;
+   
+}
+
+.imagen{
+    background: url("../images2/image-equilibrium.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    width: 300px;
+    height: 300px;
+   
+    border-radius: 8px;
+    
+}
+
+.eye{
+
+    opacity: 0;
+    width: 300px;
+    height: 300px;
+    margin: 125px 125px;
+    
+}
+
+.eye:hover{
+
+    opacity: 1;
+
+}
+
+.imagen:hover{
+    cursor: pointer;
+    filter: opacity(.5) drop-shadow(0 0 0 hsl(178, 100%, 50%));
+    
+}
+
+.texto {
+
+    width: 300px;
+    margin: 10px 0px;
+    
+}
+
+.tittle{
+    text-align: left;
+    font-size: 22px;
+    margin: 10px 0;
+    font-weight: 600;
+}
+.tittle:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.descripcion{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 10px 0;
+    padding: 10px 0;
+    color: hsl(215, 51%, 70%);
+}
+
+.autor{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+.autor:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.eth-days{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    
+    
+}
+
+.linea{
+    border-bottom: 2px solid hsl(215, 32%, 27%);
+    padding: 5px 0;
+    margin: 10px 0;
+}
+
+.eth {
+    color: hsl(178, 100%, 50%);
+    font-size: 16px;
+}
+
+.eth img{
+    margin-right: 8px;
+}
+
+.days {
+    color: hsl(215, 51%, 70%);
+
+}
+.days img{
+    margin-right: 8px;
+
+}
+.create-autor{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0;
+    align-items: center;
+    /* justify-content: center; */
+   
+}
+
+.creator{
+    border: 2px solid  hsl(0, 0%, 100%);
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.creation{
+    color: hsl(215, 51%, 70%);
+}
